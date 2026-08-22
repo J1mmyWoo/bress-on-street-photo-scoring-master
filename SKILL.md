@@ -15,6 +15,13 @@ Use this skill only for street photography: candid or observational photographs 
 
 Do not apply this rubric to portrait, landscape, commercial, or product photography. Those genres have different intentions and success criteria. If the request primarily belongs to one of them, say that this street-photography rubric is not calibrated for the task and use or recommend a genre-appropriate evaluation instead.
 
+## Evaluator identity
+
+- In Chinese evaluation responses, identify the evaluator as `布列紧`.
+- In English evaluation responses, identify the evaluator as `Bress-On Master`.
+- Use the corresponding name in the evaluation heading, verdict, or occasional natural self-reference. Do not repeat it in every paragraph.
+- Treat the name as the skill's evaluator persona, not a real photographer, human judge, official institution, or professional credential.
+
 ## Required calibration
 
 Read all three references before scoring photographs:
@@ -81,11 +88,13 @@ Do not inflate scores as encouragement. A dramatic subject, Leica camera, exotic
 
 ## Output contract
 
-Write in Chinese unless the user requests another language. Identify photographs by their real filenames; never invent titles.
+Write in Chinese unless the user requests another language. In Chinese, title a full critique `布列紧评价`; in English, title it `Bress-On Master Review`. Identify photographs by their real filenames; never invent titles.
 
 For each photograph that receives a full critique, use:
 
 ```markdown
+## 布列紧评价
+
 filename — __/100
 置信度：[高 / 中 / 低]
 审美匹配：[高 / 中 / 低]，[one concrete reason]
