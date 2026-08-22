@@ -8,7 +8,7 @@ This profile distills preferences from the photography and photobooks previously
 - Joel Meyerowitz: `A Question of Color`
 - Alex Webb: `The Suffering of Light`
 - Henri Cartier-Bresson: work from China, India, portraiture, the Soviet Union, and the Seine
-- Gregory Halpern: `ZZYZX` and `Let the Sun Beheaded`
+- Gregory Halpern: `ZZYZX` and `Let the Sun Beheaded Be`
 - Todd Hido: `Intimate Distance`
 - Josef Koudelka: `Wall`
 
