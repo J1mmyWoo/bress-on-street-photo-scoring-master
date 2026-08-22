@@ -79,15 +79,19 @@ Confidence: High
 
 With multiple photographs, the skill can also return a ranked list, a top-N selection, or only the photographs that clear a requested threshold. A full critique additionally includes all six category scores and a separate aesthetic-fit rating. It does not invent titles or submission metadata unless the user explicitly asks for a separate task.
 
-## Reference framework
+## Knowledge-distillation framework
 
-The skill does not contain or redistribute scans of copyrighted photobooks. Instead, it includes three distilled reference files that are read before scoring:
+The skill does not contain or redistribute scans of copyrighted photobooks. It also does not retrain or fine-tune the underlying model. “Distillation” here means converting prior photobook study into inspectable principles, diagnostic questions, score gates, and comparison tests. Five reference files are read before scoring:
 
 - **Historical scoring calibration:** lessons from Henri Cartier-Bresson's `Behind the Gare Saint-Lazare`, Dorothea Lange's `Migrant Mother`, Robert Frank's `Trolley, New Orleans`, and Richard Kalvar's `Woman in the Window` contact sheet.
-- **Photobook-based aesthetic profile:** preferences derived from Rinko Kawauchi's `Illuminance` and `Hanabi`, Joel Meyerowitz's `A Question of Color`, Alex Webb's `The Suffering of Light`, selected Henri Cartier-Bresson work, Gregory Halpern's `ZZYZX` and `Let the Sun Beheaded`, Todd Hido's `Intimate Distance`, and Josef Koudelka's `Wall`.
+- **Photobook-based aesthetic profile:** preferences derived from Rinko Kawauchi's `Illuminance` and `Hanabi`, Joel Meyerowitz's `A Question of Color`, Alex Webb's `The Suffering of Light`, selected Henri Cartier-Bresson work, Gregory Halpern's `ZZYZX` and `Let the Sun Beheaded Be`, Todd Hido's `Intimate Distance`, and Josef Koudelka's `Wall`.
+- **Distilled photographer principles:** an individual card for each of those seven photographers, separating transferable questions from superficial stylistic shortcuts.
+- **Scoring decision protocol:** an evidence-first procedure with replaceability, timing, subject-removal, color, edge, and repeated-viewing tests, plus stricter gates for scores above 80, 85, and 90.
 - **Street-editing principles:** near-duplicate selection, reading people inside environments, separating observation from invention, and ethical treatment of photographed people.
 
 These references calibrate questions and scoring severity; they are never templates for imitation. A photograph receives no extra points for resembling a famous photographer. Personal aesthetic fit is reported separately and cannot change the absolute score.
+
+The seven distilled references are Rinko Kawauchi, Joel Meyerowitz, Alex Webb, Henri Cartier-Bresson, Gregory Halpern, Todd Hido, and Josef Koudelka. Their work changes the questions the evaluator asks—not the visual style it tries to reproduce.
 
 ## Scoring logic
 
@@ -280,15 +284,19 @@ DSCF0123.jpg — 84/100
 
 上传多张照片时，也可以要求它输出完整排序、前 N 名，或者只显示达到指定门槛的照片。完整点评还会给出六项分数，以及与绝对分数分开的审美匹配度。除非用户另外提出要求，否则它不会擅自为照片起标题，也不会生成投稿说明或其他元数据。
 
-## 参考体系
+## 知识蒸馏体系
 
-Skill 不会收录或重新发布受版权保护的摄影书扫描页，而是把之前研究的内容整理成三份评分前必读的参考文件：
+Skill 不会收录或重新发布受版权保护的摄影书扫描页，也不会重新训练或微调底层模型。这里的“蒸馏”是指把之前对摄影书和作品的研究，转化成可以检查的观察原则、诊断问题、分数门槛和比较测试。评分前会读取五份参考文件：
 
 - **历史名作评分校准：** 从 Henri Cartier-Bresson 的 `Behind the Gare Saint-Lazare`、Dorothea Lange 的 `Migrant Mother`、Robert Frank 的 `Trolley, New Orleans`，以及 Richard Kalvar 的 `Woman in the Window` 联系表中提炼评分原则。
-- **摄影书审美档案：** 来源包括川内伦子的 `Illuminance` 与 `Hanabi`、Joel Meyerowitz 的 `A Question of Color`、Alex Webb 的 `The Suffering of Light`、Henri Cartier-Bresson 的部分作品、Gregory Halpern 的 `ZZYZX` 与 `Let the Sun Beheaded`、Todd Hido 的 `Intimate Distance`，以及 Josef Koudelka 的 `Wall`。
+- **摄影书审美档案：** 来源包括川内伦子的 `Illuminance` 与 `Hanabi`、Joel Meyerowitz 的 `A Question of Color`、Alex Webb 的 `The Suffering of Light`、Henri Cartier-Bresson 的部分作品、Gregory Halpern 的 `ZZYZX` 与 `Let the Sun Beheaded Be`、Todd Hido 的 `Intimate Distance`，以及 Josef Koudelka 的 `Wall`。
+- **摄影师原则卡：** 为上述七位摄影师分别整理可迁移的判断问题，并明确哪些表面风格不能当成高分依据。
+- **评分决策协议：** 先列可见证据，再执行可替代性、时机、主体移除、色彩、边缘和重复观看测试，并为 80、85、90 分以上设置逐级证据门槛。
 - **街拍选片原则：** 涵盖相似连拍比较、人物与环境的共同阅读、事实与推断的分离，以及对被摄者的伦理处理。
 
 这些参考只用于校准问题和评分严格度，不是模仿模板。照片不会因为像某位摄影大师而加分；个人审美匹配度会单独报告，不能改变绝对分数。
+
+目前提炼的七位摄影师是：川内伦子、乔尔·迈耶罗维茨、亚历克斯·韦布、亨利·卡蒂埃-布列松、格雷戈里·哈尔彭、托德·希多、约瑟夫·寇德卡。他们的作品改变的是评审提出的问题，而不是要求照片复制他们的视觉风格。
 
 ## 评分逻辑
 
