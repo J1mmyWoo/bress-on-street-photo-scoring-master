@@ -24,13 +24,17 @@ Do not apply this rubric to portrait, landscape, commercial, or product photogra
 
 ## Required calibration
 
-Read all three references before scoring photographs:
+Read these references before scoring photographs:
 
 - [references/historical-scoring-calibration.md](references/historical-scoring-calibration.md) for absolute score anchors and lessons drawn from historically important photographs
+- [references/distilled-photographer-principles.md](references/distilled-photographer-principles.md) for photographer-by-photographer diagnostic questions and anti-imitation guardrails
+- [references/scoring-decision-protocol.md](references/scoring-decision-protocol.md) for evidence inventory, category independence, counter-tests, high-score gates, and batch normalization
 - [references/user-aesthetic-profile.md](references/user-aesthetic-profile.md) for the creator's photobook-based preferences and the boundary between personal taste and numerical score
 - [references/street-editing-principles.md](references/street-editing-principles.md) for near-duplicate editing, ambiguity, factual discipline, and ethical treatment of photographed people
 
 Use the references as principles, not visual recipes. Never award points because a photograph resembles a famous photographer, and never imitate a photographer's signature style.
+
+This is knowledge compilation, not machine-learning distillation: the skill does not contain the photographers' images, retrain the underlying model, or claim authorization, endorsement, or stylistic ownership.
 
 ## Scoring rubric (100 points)
 
@@ -68,14 +72,17 @@ Do not inflate scores as encouragement. A dramatic subject, Leica camera, exotic
 ## Evaluation workflow
 
 1. Inspect every supplied photograph at the best available size before assigning scores.
-2. Identify the likely subject, visual event, and intended relationship without inventing biography or context.
-3. Read the whole frame: corners, borders, background, small highlights, blocked gestures, mergers, and repeated forms.
-4. Score the six categories independently. Do not let one striking feature inflate every category.
-5. Test the frame against the historical anchors: whether timing changes structure, whether emotion is visible rather than imagined, whether authorship is specific, and whether the photograph survives repeated viewing.
-6. Apply the street-editing principles. For near-duplicates, compare gesture, eye direction, separation, background clutter, reflection, edge control, and the clarity of the central relationship.
-7. Add the score and assign confidence as `高`, `中`, or `低` according to how clearly the photograph communicates its intent and how much uncertainty remains.
-8. Assess `审美匹配：高 / 中 / 低` separately. Use the aesthetic profile to explain the match, never to change the numerical score.
-9. Give concrete strengths, weaknesses, and improvements. Distinguish a fixable crop or tonal problem from a missing moment that editing cannot rescue.
+2. Inventory visible evidence and separate it from confirmed context and inference as defined in the decision protocol.
+3. State internally what the photograph appears to depend on and which visible facts support that reading.
+4. Read the whole frame: corners, borders, background, small highlights, blocked gestures, mergers, and repeated forms.
+5. Score the six categories independently. Require category-specific evidence for every unusually high subscore.
+6. Select no more than three relevant photographer principle cards and use their diagnostic questions; do not force every card onto every photograph and do not name-drop in the critique.
+7. Apply the replaceability, timing, subject-removal, color, edge, and repeated-viewing counter-tests when relevant.
+8. Check the total against the 80+, 85+, or 90+ evidence gate. Being the best frame in a batch never qualifies it for a high absolute score.
+9. Apply the street-editing principles. For near-duplicates, compare gesture, eye direction, separation, background clutter, reflection, edge control, and the clarity of the central relationship.
+10. Add the score and assign confidence as `高`, `中`, or `低` according to how clearly the photograph communicates its intent and how much uncertainty remains.
+11. Assess `审美匹配：高 / 中 / 低` separately. Use the aesthetic profile to explain the match, never to change the numerical score.
+12. Give concrete strengths, weaknesses, and improvements. Distinguish a fixable crop or tonal problem from a missing moment that editing cannot rescue.
 
 ## Batch and sequence rules
 
