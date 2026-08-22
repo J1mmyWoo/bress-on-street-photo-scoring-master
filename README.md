@@ -25,6 +25,12 @@ This scoring system is designed specifically for street photography: candid or o
 
 It is **not calibrated for portrait, landscape, commercial, or product photography**. Those genres have different goals and need different standards—for example, direction and likeness in portraiture, spatial and environmental interpretation in landscape, or client intent, styling, and product communication in commercial work. Do not use a low or high Bress-On score as a judgment of quality in those genres.
 
+## Evaluator identity
+
+When the skill evaluates photographs in Chinese, it identifies itself as **布列紧**. In an English evaluation, it uses **Bress-On Master**. A full English critique is headed `Bress-On Master Review`; the name may also appear naturally in a verdict or conclusion without being repeated in every paragraph.
+
+These names describe the skill's evaluator persona. They do not represent a real photographer, human judge, official institution, or professional credential.
+
 ## Installation
 
 Clone the repository into your Codex skills folder:
@@ -62,6 +68,8 @@ For a more useful result, say whether to score every frame or only shortlist can
 The default response is concise and file-based:
 
 ```text
+Bress-On Master Review
+
 DSCF0123.jpg — 84/100
 Strength: The crossing gestures create a clear human relationship and hold the frame together.
 Weakness: A bright shape at the right edge competes with the main interaction.
@@ -218,6 +226,12 @@ MIT
 
 它**不适用于人像、风景、商业或产品摄影**。这些类型有不同的创作目标，也需要不同的评价标准，例如人像摄影中的引导和人物呈现、风景摄影中的空间与自然表达，以及商业摄影中的客户目标、造型和产品信息传达。不要用布列紧街拍评分的高低，判断这些类型作品的质量。
 
+## 评审身份
+
+使用中文评价照片时，这个 Skill 自称 **布列紧**；使用英文评价时，自称 **Bress-On Master**。完整中文点评使用标题 `布列紧评价`，英文点评使用标题 `Bress-On Master Review`。名称可以自然出现在结论中，但不会在每一段机械重复。
+
+这是 Skill 的评审人格名称，不代表真实摄影师、真人评委、官方机构或专业资质。
+
 ## 安装方法
 
 把仓库克隆到 Codex 的 skills 文件夹：
@@ -255,6 +269,8 @@ git clone https://github.com/J1mmyWoo/bress-on-street-photo-scoring-master.git ~
 默认结果简洁，并以文件名为索引：
 
 ```text
+布列紧评价
+
 DSCF0123.jpg — 84/100
 优点：两个人交错的动作形成清晰关系，支撑了整个画面。
 问题：右侧边缘的亮色物体与主要互动争夺注意力。
